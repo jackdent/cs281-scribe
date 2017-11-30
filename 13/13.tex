@@ -133,6 +133,26 @@ This is only $KL(p||q) = 0$ when $p = q$.
 
 \smallskip
 \smallskip
+\textit{Exercise}. Let $p \sim \operatorname{Bern}(r)$ and $q \sim \operatorname{Bern}(s)$, such that $P(p=0) = 1-r$, $P(p=1) = r$, $P(q=0) = 1-s$, and $P(q=1) = s$. Compute $KL(p||q)$ and $KL(q||p)$ for $r=0.5$ and $s=.25$. For what values of $r$ and $s$ does $KL(p||q)=KL(q||p)$? When does $KL(p||q)=0$? Provide an intuitive explanation for each of your answers.
+
+\smallskip
+\smallskip
+\textit{Exercise}. Let $X$ and $Y$ be two random variables with joint distribution $A$ given by
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+$P(X,Y)$ & $X$=0 & $X$=1 \\ \hline
+$Y$=0    & 0   & 1/2 \\ \hline
+$Y$=1    & 1/4 & 1/4 \\ \hline
+\end{tabular}
+\end{table}
+
+What distribution $B$ over independent $X$ and $Y$ minimizes the the KL-divergence $KL(A||B)$? What distribution minimizes $KL(B||A)$?
+
+\smallskip
+\smallskip
 \textit{Jensen's Inequality.}
 $$f(E[x]) \leq E[f(x)]$$
 if $f$ is convex. Mostly using when $f = \log$. 
